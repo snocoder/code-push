@@ -2,7 +2,7 @@ import { UpdateCheckResponse, UpdateCheckRequest, DeploymentStatusReport, Downlo
 import { CodePushHttpError, CodePushDeployStatusError, CodePushPackageError } from "./code-push-error"
 
 export module Http {
-    export const enum Verb {
+    export enum Verb {
         GET, HEAD, POST, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH
     }
 
